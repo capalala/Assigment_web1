@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menucss/head.css">
+    <link rel="stylesheet" href="menucss/footer.css">
+    <link rel="stylesheet" href="menucss/goods.css">
+    <link rel="stylesheet" href="screenshot.css">
+    <script type="text/javascript" src="js/audio1.js"></script>
+    <script type="text/javascript" src="js/audio2.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <link rel="icon" sizes="57x57" href="https://arcaea.lowiro.com/icon/apple-icon-57x57.png">
+</head>
+<body>
+    <div class="ov1">
+        <div class="ov2">
+            <div class="res3">
+                <div class="head">
+                    <div class="left-conner">
+                        <div class="bef"></div>
+                        <a href="http://127.0.0.1:5500/index.html"><img class="img" src="data:image/png;base64,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" alt=""></a>
+                    </div>
+                    <div class="right-conner">
+                        <div class="bef2"></div>
+                        <ul class="text-menu">
+                            <li class="m3">
+                                <a class="a3" href="">
+                                    <span style="text-decoration: none;" class="sp3">GOODS</span>
+                                    <div class="af3"></div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a style="text-decoration: none" href="http://127.0.0.1:5500/info.html">
+                            <div class="infouv-button">
+                                <span class="tet-but" >My info</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="backgnm"></div>
+                <div class="goods">
+                    <img class="thet" src="https://arcaea.lowiro.com/img/headline_en_goods.20e8c0ce.svg" alt="">
+                </div>
+                <div class="stuff">
+                    <div class="sticker">
+                        <h3 class="ta">Arcaea Official Stickers</h3>
+                        <div class="promo">
+                            <img class="p1" src="https://arcaea.lowiro.com/img/line-stickers.f899fc53.jpg" alt="">
+                        </div>
+                        <p class="tec1">Make your become more memorable with these cute and colorful official stickers of your favorite Arcaea characters!</p>
+                        <a style="text-decoration: none;color: inherit;" href="https://vi.aliexpress.com/i/1005004475207603.html?gatewayAdapt=glo2vnm">
+                            <div class="green-bu">Go to the store</div>
+                        </a>
+                        <div class="clear"></div>
+                    </div>
+                    <hr class="line">
+                    <div class="album">
+                        <h3 class="ta2">Original Soundtracks <br>(100% good stuff)</h3>
+                        <div class="album-list">
+                            <div class="album-li">
+                                <audio id="mySoundClip1">
+                                    <source src="Audio/Album1.mp3" type="audio/mpeg">
+                                </audio>
+                                <a href="javascript:playclip();">
+                                    <img class="album-art" src="https://arcaea.lowiro.com/img/mol.c6068fcb.jpg" alt="">
+                                    <div class="text-hover">
+                                        <div class="line-text-hover">Click the image</div>
+                                        <div class="line-text-hover">to hear the song</div>
+                                    </div>
+                                </a>
+                                <div class="album-name">
+                                    Arcaea Sound Collection
+                                    <br>
+                                    Memories Of Light
+                                </div>
+                                <div class="source-bu">
+                                    <a class="lishop" href="https://diverse.direct/arcaea/irocd-001/">
+                                        <div class="store-button"> DIVERSE DIRECT </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> TANO*C STORE </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> Amazon.co.jp </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="album-li">
+                                <audio id="mySoundClip2">
+                                    <source src="Audio/Album2.mp3" type="audio/mpeg">
+                                </audio>
+                                <a  href="javascript:playclip();">
+                                    <img class="album-art" src="https://arcaea.lowiro.com/img/moc.2fd3811d.jpg" alt="">
+                                    <div class="text-hover">
+                                        <div class="line-text-hover">Click the image</div>
+                                        <div class="line-text-hover">to play the song</div>
+                                    </div>
+                                </a>
+                                <div class="album-name">
+                                    Arcaea Sound Collection
+                                    <br>
+                                    Memories Of Conflict
+                                </div>
+                                <div class="source-bu">
+                                    <a class="lishop" href="https://diverse.direct/arcaea/irocd-001/">
+                                        <div class="store-button"> DIVERSE DIRECT </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> TANO*C STORE </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> Amazon.co.jp </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="album-li">
+                                <audio id="mySoundClip2">
+                                    <source src="Audio/Album2.mp3" type="audio/mpeg">
+                                </audio>
+                                <a href="javascript:playclip();">
+                                    <img class="album-art" src="https://arcaea.lowiro.com/img/mor.918dcf99.jpg" alt="">
+                                    <div class="text-hover">
+                                        <div class="line-text-hover">Click the image</div>
+                                        <div class="line-text-hover">to play the song</div>
+                                    </div>
+                                </a>
+                                <div class="album-name">
+                                    Arcaea Sound Collection
+                                    <br>
+                                    Memories Of Realms
+                                </div>
+                                <div class="source-bu">
+                                    <a class="lishop" href="https://diverse.direct/arcaea/irocd-001/">
+                                        <div class="store-button"> DIVERSE DIRECT </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> TANO*C STORE </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> Amazon.co.jp </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="album-li">
+                                <audio id="mySoundClip2">
+                                    <source src="Audio/Album2.mp3" type="audio/mpeg">
+                                </audio>
+                                <a href="javascript:playclip();">
+                                    <img class="album-art" src="https://arcaea.lowiro.com/img/mod.928f3e00.jpg" alt="">
+                                    <div class="text-hover">
+                                        <div class="line-text-hover">Click the image</div>
+                                        <div class="line-text-hover">to play the song</div>
+                                    </div>
+                                </a>
+                                <div class="album-name">
+                                    Arcaea Sound Collection
+                                    <br>
+                                    Memories Of Dreams
+                                </div>
+                                <div class="source-bu">
+                                    <a class="lishop" href="https://diverse.direct/arcaea/irocd-001/">
+                                        <div class="store-button"> DIVERSE DIRECT </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> TANO*C STORE </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> Amazon.co.jp </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="album-li">
+                                <audio id="mySoundClip2">
+                                    <source src="Audio/Album2.mp3" type="audio/mpeg">
+                                </audio>
+                                <a href="javascript:playclip();">
+                                    <img class="album-art" src="https://arcaea.lowiro.com/img/mow.12a3e4a7.jpg" alt="">
+                                    <div class="text-hover">
+                                        <div class="line-text-hover">Click the image</div>
+                                        <div class="line-text-hover">to play the song</div>
+                                    </div>
+                                </a>
+                                <div class="album-name">
+                                    Arcaea Sound Collection
+                                    <br>
+                                    Memories Of Wrath
+                                </div>
+                                <div class="source-bu">
+                                    <a class="lishop" href="https://diverse.direct/arcaea/irocd-001/">
+                                        <div class="store-button"> DIVERSE DIRECT </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> TANO*C STORE </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> Amazon.co.jp </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="album-li">
+                                <audio id="mySoundClip2">
+                                    <source src="Audio/Album2.mp3" type="audio/mpeg">
+                                </audio>
+                                <a href="javascript:playclip();">
+                                    <img class="album-art" src="https://arcaea.lowiro.com/img/mom.55fcf5bf.jpg" alt="">
+                                    <div class="text-hover">
+                                        <div class="line-text-hover">Click the image</div>
+                                        <div class="line-text-hover">to play the song</div>
+                                    </div>
+                                </a>
+                                <div class="album-name">
+                                    Arcaea Sound Collection
+                                    <br>
+                                    Memories Of Myth
+                                </div>
+                                <div class="source-bu">
+                                    <a class="lishop" href="https://diverse.direct/arcaea/irocd-001/">
+                                        <div class="store-button"> DIVERSE DIRECT </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> TANO*C STORE </div>
+                                    </a>
+                                    <a class="lishop" href="">
+                                        <div class="store-button"> Amazon.co.jp </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ssend"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="link">
+                    <div class="le">
+                        <img class="le1" src="https://arcaea.lowiro.com/img/logo-dark-bg.45ec7ff3.svg" alt="">
+                    </div>
+                    <div class="mi">
+                        <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=moe.low.arc">
+                            <img class="mi1" src="https://arcaea.lowiro.com/img/google-play-badge_en_equalised.aca69fca.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="https://apps.apple.com/us/app/arcaea/id1205999125">
+                            <img class="mi2" src="https://arcaea.lowiro.com/img/apple-app-store_en_equalised.9a874122.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="ri">
+                        <ul class="menu">
+                            <li class="l1">
+                                <a class="t1" href="">
+                                    <span style="color: #f8f8f9;;">GOODS</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a style="text-decoration: none;" class="login-button" href="https://arcaea.lowiro.com/en/login">
+                            <i class="icon"></i>
+                            <span class="t">Info</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="lowiro">
+                        <div class="le2"> ©2021 lowiro <br> <br>made by datttph43031@fpt.edu.vn</div>
+                        <div class="mi2">
+                            <a style="text-decoration: none;" href="https://lowiro.com/">
+                                <img style="width: 71px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAAA+CAMAAADK6dNPAAAAnFBMVEUAAAANCwsAAAAAAAAAAAAEBAQPDg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYVVUAAAAAAABXVVVYVVVUUlJXVFRYVFRWVFRTU1MfHx8AAABZVlZSUFAXFhYY02V5AAAAMHRSTlMABOzhHBQK9/MxeCdG2qFdT9CpbpkPPtS9tjiTx2nLw42AZCxX7q+IedAvtKJIIdPrj/r0AAAEj0lEQVRo3szV3U6DQBCG4W9ZWFp+bIxgKJWgJjQLlDro/d+bicRM4xL1ZDM8V/AeTL7BChXWh7v7FFug6ud8R0TaQFraFE8BLVoFYepIrIC0MifWQFoYcE28h7Qs5hxdQlpC7AxpqiKWQFoUEMsgrSYWy29yQ0xHkHYidhTfZGzrko3e1AjuY1ps450/EKsgyH3nJ0iL9KbeeRoTqyEtIxbIj2BCrFL4jTLw7vy/ETTRYHsL30r99ztXgx37bp67K/xxRzAI3ZLrZMduXowKvr0Sy8sfLdOlm29M8K5Yf+dmspf+q4X1Br6pltgL17y9zw4L74wm9ohvYfzh9gzwLt2tjmBGxD18yN4diLW3X97p6Qb491mclS23DcNAkbrvK5F8york2k0nD/z/rysIeEilYU21Hbt8SaLwWAKLBUE25nReiC943p2HNbMITprgtSA8zyWykwozk7n4jAcV+fGtErpF3tfPGs+H87BmTucDM5Q6hOfb+8cDiWxm8tWkjYDn/fuP4DnVF+uX6dx8Xq0sczxcBOmzZpSlPUYEe2YkeP28Kpkt0/lFrzv+n5vL4GBM52wQupX3N8SsxrN3NlP2b24ui9NpdVXvbU+bu5VKvGSyZy51PMu92Uqq07R5sJbJAzNqY313gg47rJfcwnIwNafz1Ux++xOqp13n3WVyb6bsYBdBfeV6/kdW69/SyFid+3w1dVwRzjRptc3d+opMfT22LZYku7YlsFnbZo7XtnLLVdt6TnZysUxg5cZ1hzcieGWmbGcXQb0f7iOY+ibhCaPtSJDsgNqKkRp1zoS3R0ENv78QOVh5i2x3Yuh5I2WvQrfGFit9cAsJXg+cfB64ZOsuhIUCmrBAbd0jNH4B/Ygqh8n1+VDzW75sjJRlS21M1sRKBhOOHmNeA/B8PEpmpLFovNcc4QHPplvR25/jOXCqCOb3YdhJiK0Dw4yU9fnqdL7FFdgJdoNOnSMRxURwNJ2LHGjByAxtFpMht8gVDz5cmUNm5L9Q1jcW7SK1HLSjFAeE1C/I5QZYgbdohXAT+X+P4+xziI9Be0XTSTJLDftt3j6rjzYVjanDXqXfoEZ7jtLJMxdtKQ3SEhOO5JGBTELqNupCgURQU9bAZJuKTsrnZ12XZOidkRVghTP8CRD5DL0awEhBlip1WwyDrRjTubNZnc73sFOcLIxV4Ecpmr3wOPApgxWPZITXHJFmykNMElzRgwNQK5PD2fZ4UBKcnTJX7qMTt4mkSAcW6UU0O8osiXKEhsNGqUi7ZU2jKdutvLmkCWMShpZ20oO00NIuFwXiOtyirgvxMajQjjgg4W8hNn0+mAbWdG6GU1I9z1NJ5AsaByOFisg5VE9SE92DDtoRI2ANJJoD9tmbRbBZEpzZ3sF6WMvPAUZSJvAjqlRdJHNSGipaklkCrrUj5jA8Kd9cQBODsYyUZcP6O3h2wRDXD818p04oYSc3HpHK0OGhQ9Lql+hKDZORwBfUiRdJ2vjZ3NKiKeRq85iHIjoknkOtbJp9IMOpaJqSpoWePgBvmkXa2b24EFObo/TmT9swPCfTOhHAAAAAAElFTkSuQmCC" alt="">
+                            </a>
+                        </div>
+                        <div class="ri2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

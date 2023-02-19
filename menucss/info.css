@@ -1,0 +1,96 @@
+.res2{
+    min-height: calc(100vh - 142px);
+    background-image: url(https://arcaea.lowiro.com/img/backgrounds_1@2x.624114c7.jpg);
+    background-size: 1920px 2354px;
+    background-repeat: no-repeat;
+    background-position: 48%;
+    padding-bottom: 136px;
+}
+.menu-buton{
+    font-family: Titillium Web,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: #34333e;
+    padding-top: 3.5px;
+}
+.info-heading{
+    max-width: 1100px;
+    padding: 213px 0 64px;
+    margin: auto;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+}
+.logout-open{
+    background-image: url(https://arcaea.lowiro.com/img/button-logout.92820365.svg);
+    background-repeat: no-repeat;
+    background-size: 170.5px 64px;
+    height: 64px;
+    width: 170.5px;
+    text-align: center;
+    padding-top: 21px;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 48px;
+    right: -14px;
+    cursor: pointer;
+}
+.img-intro{
+    height: 75px;
+    max-width: 100%;
+}
+.main-inf{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACJgAAAAICAMAAACIuScVAAAAUVBMVEWwGmtSQLBlOKJqNp+sG25yM5mdInl6MJN2MZaZI3yhIHZ+LpBuNZyCLI1hOqWFK4qVJX+JKYioHXGlHnNXPaxbPKpeO6ePJ4OMKIWSJoFVP64aIqUxAAABsUlEQVR42u3aC5KCMBAE0CwEPxhRBEW8/0G348pKkUn4FCpb26/jcIWpdhQRPWilA06y4lTI0iL1WqWrgG3A0ad2VHUluFZXR+5z8NkH7ALWQZuAJMAkxis2sVcUR2FZlMku2UVyvpwF5bkU3bq+iAgUESl9jx2i0zNDNpPUBh9MeSnBwJRsbfCRHJ9x1cdaIC0mgvwqLSU/gdxZS5CDtJI0wetaN8Hr2jTB60racRgbfAw+rtgmxk9eSjCayEsJRoaPRNxKEEeJBxhdt7K7l3AzIeJiQtSitULmakxSNiZyY7LraUwwJYmFKTC9jYnpbiXPxgTPjq6MjQnRQFxMiF5BI3aO7UugAH9jIm8lf74xwZvamMCUxsQOl7Hv0ZggoxsTTMT7Pw4bE6J+XEyIXkX335jof3hjks/dmCCiTagxSSzfnzljG5MIr92YYLIxIVoMRURK20xuTOTKZAE3JtWHGhPkfY0JGLiPqY0Jb0yIFkQRUevGhI3JkMZkH7Kz9rM2JjBnY2KxMSFaKkVEvzcmstGNyVJuTF7XmCBvbUyQUGMSujERRAMak4w3JkQf8g23bBzgaQ02iAAAAABJRU5ErkJggg==);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #fff;
+    box-shadow: 0 13px 16px rgba(0,0,0,.16);
+    max-width: 1100px;
+    position: relative;
+    padding: 0 0 45px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+.left-info{
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 71px 40px 0 80px;
+}
+.right-info{
+    width: 50%;
+    padding-top: 91px;
+    text-align: center;
+}
+.user{
+    text-align: left;
+    display: flex;
+}
+.ten{
+    width: 50%;
+    text-align: left;
+}
+.username{
+    font-family: Titillium Web,sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 8px 0 0;
+}
+.name4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 8px 0 0;
+    text-align: left;
+    font-family: Titillium Web,sans-serif;
+}
+.name5{
+    font-size: 1.0625rem;
+    font-weight: 600;
+    margin: 7px 0 0;
+    text-align: left;
+    font-family: Titillium Web,sans-serif;
+}

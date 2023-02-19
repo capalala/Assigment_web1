@@ -1,0 +1,101 @@
+.footer{
+    width: 100%;
+}
+.link{
+    background-color: #34333e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.copyright{
+    font-family: Open Sans,sans-serif;
+}
+.le{
+    width: 400px;
+    text-align: center;
+}
+.le1{
+    text-align: center;
+}
+.mi{
+    width: 250px;
+    text-align: center;
+}
+.mi1{
+    padding-bottom: 10px;
+}
+.mi2{
+    color: inherit;
+}
+.ri{
+    width: 400px;
+    text-align: center;
+}
+.menu{
+    margin: 0;
+    padding: 8px 0;
+    list-style: none;
+    color: #f8f8f9;
+}
+.l1{
+    padding: 6px 0;
+    text-align: center;
+    font-weight: 700;
+}
+.t1{
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+}
+.login-button{
+    background-image: url(https://arcaea.lowiro.com/img/button-footer-account.9c519b33.svg);
+    background-repeat: no-repeat;
+    background-size: 161.4px 61px;
+    height: 49px;
+    width: 161.4px;
+    text-align: center;
+    padding-top: 12px;
+    display: inline-block;
+}
+.icon{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAuCAMAAACGThBBAAAASFBMVEUAAAD4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pn4+Pm62PteAAAAF3RSTlMADYDwvxwVsI5wUD/g1J/mxXeWXzAjpTd1kfYAAADQSURBVDjL7dTJbsQgEIThAmxjFm+zpN7/TRMlEyHMQBMpl5HmO5da/6lRCPNARntVkNwGPhgnTL1hsjZPB2ZW1CnDXCND88TUKwzPrqjwLFgxIYnyNvmPrWNhQMXIwoyahWcBNV5OSCwz5oY6lVd4tCibliZA4ONjqRVko9Nae7x1C4cdvtgjoGlyO5nsbkLFeGFhHZ/enPnUZZSXyZyVKM2mWaXQhYLlN+S+UbTdf65Gdojf0R/ssqanIJsAzU4HsLPTABh22gB2+8tWvdr2EzC9VygNVfbhAAAAAElFTkSuQmCC);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.2em;
+    width: 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: .4em;
+}
+.t{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #f8f8f9;
+    font-weight: 900;
+    cursor: pointer;
+}
+.le2{
+    width: 33%;
+    padding-left: 33px;
+}
+.mi2{
+    width: 33%;
+    text-align: center;
+}
+.ri2{
+    width: 33%;
+    text-align: right;
+    padding-right: 33px;
+}
+.lowiro{
+    border: 1px solid #707070;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    font-size: .625rem;
+}
+ 
